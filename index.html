@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css"> 
+    <link rel="stylesheet" type="text/css" href="./styles/bootstrap.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="header-main">
+                <div>
+                    Curriculum Vitae
+                    <h1>Santiago Correge</h1>
+                    <p>Me apasionan temas como son: desarollo web backend y desarollo de software orientadas a resolver problematicas del mundo actual.</p>
+                </div>
+                <img src="./img/profile.png" alt="cv-img" id="header-img">
+        </header>
+        <hr>
+        <section class="no-transformation">
+
+            <ul>
+                <li><a href="#exp">Experiencia profesional</a></li>
+                <li><a href="#hyc">Habilidades y conocimientos</a></li>
+                <li><a href="#edu">Educación</a></li>
+                <li><a href="#psoc">Perfiles sociales</a></li>
+                <li><a href="#contacto">Contactar</a></li>
+
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2 id="exp">Experiencia profesional</h2>
+            <table class="tabla-experiencia">
+                <tr>
+                    <th>Empresa / Organización</th>
+                    <th>Cargo</th>
+                    <th>Localización</th>
+                </tr>
+                <tr>
+                    <td class="workplace">Alorica</td>
+                    <td>Atencion al cliente Amazon US</td>
+                    <td>Montevideo</td>
+                </tr>
+                <tr>
+                    <td class="workplace">Bet Construct</td>
+                    <td>Sitio de apuestas deportivas: Odds Maker</td>
+                    <td>Montevideo</td>
+                </tr>
+                <tr>
+                    <td class="workplace">Quijote Soluciones</td>
+                    <td>Servicio tecnico y soluciones informaticas</td>
+                    <td>Montevideo</td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <section>
+            <h2 id="hyc">Habilidades y conocimientos</h2>
+            <ul>
+                <li><strong>Desarrollo web:</strong> HTML5, CSS3, JavaScript, Node.js, Express, React, React Native, responsive desing, etc.</li>
+                <li><strong>Emprendimiento:</strong>Proximamente</li>
+            </ul>
+
+        </section>
+        <hr>
+        <section>
+            <h2 id="edu">Educación</h2>
+                <table class="tabla-educacion colores">
+                    <thead>
+                        <tr>
+                            <th>Título</th>
+                            <th>Entidad</th>
+                            <th>Promoción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bachillerato Tecnologico</td>
+                            <td>Talleres Don Bosco</td>
+                            <td>2014</td>
+                        </tr>
+                        <tr>
+                            <td>Desarrollo web</td>
+                            <td>Plan Ceibal (Jóvenes a programar)</td>
+                            <td>2020</td>
+                        </tr>
+                        <tr>
+                            <td>Analista en tecnologias de la informacion (Primer semestre 99/100)(En pausa)</td>
+                            <td>ORT</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>Cursos</td>
+                            <td>FreeCodeCamp, FullStackOpen, Udemy</td>
+                            <td>2023</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+        <hr>
+        <section>
+            <h2 id="psoc">Perfiles Sociales</h2>
+            <p>También puedes encontrarme en:</p>
+            <ul>
+                <li><a href="https://github.com/santiagocorrege" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/santiago-correge/" target="_blank">Linkedin</a></li>
+            </ul>
+        </section>
+        <hr>
+        <section class="no-transformation">
+            <h2 id="contacto">Contactar</h2>
+            <div class="conjunto">
+                <label for="destinatario">Para:</label>
+                <input type="text" id="destinatario" required>
+            </div>
+            <div class="conjunto">
+                <label for="tematica">Temática:</label>
+                <select name="tematica" id="tematica" required>
+                    <option value="elegir" selected>--Elige un tema--</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="propuesta">Propuesta</option>
+                    <option value="reporte">Reporte</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+            <div class="conjunto">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" required>
+            </div>
+            <div class="conjunto">
+                <label for="cuerpo">Mensaje:</label>
+                <textarea id="cuerpo"></textarea>
+            </div>
+            <div class="conjunto">
+                <input type="submit">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+<!-- By Santigo Correge-->

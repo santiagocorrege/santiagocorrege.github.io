@@ -1,0 +1,143 @@
+body {
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(227, 255, 242), rgb(217, 218, 248));
+}
+
+main {
+    background-color: white;
+    margin: 50px auto;
+    padding: 70px;
+    width: 80%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-main {
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+
+}
+
+#header-img {
+    width:15%;
+    height: auto;
+    filter: grayscale(30%);
+    margin-right: 50px;
+    border: 1px solid black;
+}
+
+header {
+    transition: all 0.3s ease;
+}
+
+header:hover {
+    transform: scale(1.05);
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+section h2{
+    transition: all 0.3s ease;
+}
+
+section:hover h2{
+    transform: scale(1.12);
+}
+
+.no-transformation:hover {
+    transform: scale(1.00);
+}
+
+li a:hover {
+    color: rgb(123, 94, 94);
+}
+.workplace {
+    font-style: italic;
+}
+
+.tabla-experiencia {
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.tabla-experiencia th {
+    background-color: rgb(227, 255, 242);
+}
+
+.tabla-experiencia td {
+    background-color: rgb(217, 218, 248);
+}
+
+.tabla-educacion {
+    text-align: center;
+    margin: 20px auto;
+    width: 60%;
+}
+
+.tabla-educacion th{
+    background-color: rgb(227, 255, 242);
+}
+
+.tabla-educacion td{
+    background-color: rgb(217, 218, 248);
+}
+  
+section {
+    margin: 15px 0px;
+}
+
+#contacto {
+    margin-bottom: 30px;
+}
+
+.conjunto{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.conjunto label {
+    display: inline-block;
+    text-align:left;
+    width: 10%;
+}
+
+.conjunto input,
+.conjunto textarea {
+    display: inline-block;
+    width: 60%;
+    margin-left: 10%;
+}
+
+
+.conjunto select {
+    display: inline-block;
+    width: 40%;
+    margin-left: 10%;
+}
+
+input[type='submit'] {
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input[type='submit']:hover {
+    background-color: rgb(84, 84, 84);
+    color: white;
+}
+
+/*By Santiago Correge*/
